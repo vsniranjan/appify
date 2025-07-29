@@ -6,26 +6,32 @@
     <title>Appify</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="media">
-      <div class="media__image">
-        <svg class="icon icon--primary">
-          <use xlink:href="images/sprite.svg#snap"></use>
-        </svg>
-      </div>
-      <div class="media__body">
-        <h3 class="media__title">Easy Start & Managed Updates</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sed eos
-          nobis. Harum consequatur, laborum autem velit eaque iste atque!
-        </p>
-      </div>
-    </div>
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto impedit
+        dolorem, nostrum commodi voluptates eius enim? Voluptatum eaque sequi
+        labore.
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon icon--primary quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">John Smith</h3>
+            <p class="quote__organization">ABC Company</p>
+          </div>
+        </div>
+      </footer>
+    </blockquote>
   </body>
 </html>
