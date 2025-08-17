@@ -1,6 +1,7 @@
 # HTML & CSS Static Webpage
 
-This is a static webpage built using HTML and CSS. It’s a simple project created as part of a learning journey.
+This is a static webpage built using HTML and CSS. It’s a simple project created as part of a learning journey.  
+🔗 Live Demo: [niranjanvs-appify.netlify.app](https://niranjanvs-appify.netlify.app)
 
 ## Features
 
